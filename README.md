@@ -26,7 +26,7 @@ export default ClassicEditor;
 
 ### Configuration
 
-By Default the plugin is default, to enabled the button you'll need to enable it in your configuration. For example:
+By Default the plugin is disabled, to enable the button you'll need to enable it in your configuration. For example:
 
 ```js
 {
