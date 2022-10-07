@@ -2,7 +2,6 @@
 
 **NB** this plugin currently only supports add an `id` atrribute. If you'd like to see this expanded to support any attribute please open an issue or create a Pull Request!
 
-This ckeditor5 plugin allows you to add any attriute key/value to a HTML Element. For example ID attributes for internal anchor links:
 
 ```html
 <h2 id="i-want-to-scroll-to-this">Example</h2>
