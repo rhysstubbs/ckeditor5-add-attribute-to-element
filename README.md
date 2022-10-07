@@ -1,4 +1,6 @@
-# Add Attribute To Element
+# Add ID Attribute To Element
+
+**NB** this plugin currently only supports add an `id` atrribute. If you'd like to see this expanded to support any attribute please open an issue or create a Pull Request!
 
 This ckeditor5 plugin allows you to add any attriute key/value to a HTML Element. For example ID attributes for internal anchor links:
 
@@ -21,6 +23,31 @@ ClassicEditor.builtinPlugins = [
 ];
 
 export default ClassicEditor;
+```
+
+### Configuration
+
+By Default the plugin is default, to enabled the button you'll need to enable it in your configuration. For example:
+
+```js
+{
+    elementAddAttributes: {
+        enabled: true, // false will disable the button on the UI
+    },
+}
+```
+
+To add the toolbar UI, include it in the configuration. For example:
+
+```js
+toolbar: {
+    items: [
+        'bold',
+        'italic',
+        '|',
+        'elementAddAttributes',
+    ]
+}
 ```
 
 ## Contributing
